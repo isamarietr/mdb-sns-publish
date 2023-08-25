@@ -1,5 +1,9 @@
 # mdb-sns-publish
 
+## Assumptions
+
+1. You already have an SNS topic in AWS. Otherwise, [create a new SNS Topic](https://docs.aws.amazon.com/sns/latest/dg/sns-create-topic.html).
+
 ## Setup
 
 1. Install dependencies 
