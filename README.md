@@ -14,9 +14,10 @@ npm install
   ```
 3. Update the environment variables
 
-## Start the changestream
+## Start the changestream locally
 
 ```
 node changestream.js
 ```
 
+Alternatively, you can use the code in `trigger.js` to configure your Atlas Trigger. You'll need to add `aws-sdk` as a dependency to your function in Atlas.
