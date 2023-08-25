@@ -16,7 +16,7 @@ async function main() {
     const collection = db.collection("events")
 
     console.log(`Waiting for changes...`);
-    const changeStream = collection.watch([], { fullDocument: "whenAvailable" })
+    const changeStream = collection.watch([], { fullDocument: "updateLookup" }) 
     // For pre-image, enable changeStreamPreAndPostImages 
     // @see https://www.mongodb.com/docs/manual/reference/method/db.collection.watch/#change-streams-with-document-pre--and-post-images
     // const changeStream = collection.watch([], { fullDocumentBeforeChange: "whenAvailable",  fullDocument: "whenAvailable"})
